@@ -1,5 +1,3 @@
-
-
 @media (max-width: 1279.8px) {
     .idc-section {
         max-width: 100%;
@@ -47,8 +45,8 @@
         padding-left: 10px;
         padding-right: 9px;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
     .idc-staff__count {
         font-size: 3.3vw;
@@ -101,8 +99,8 @@
         padding-bottom: 100px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
     }
     .idc-projects-block {
         max-width: 510px;
@@ -118,10 +116,10 @@
         margin-top: 50px;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
         -ms-flex-wrap: nowrap;
-            flex-wrap: nowrap;
+        flex-wrap: nowrap;
         margin-left: 0;
     }
     .idc-photos-block .idc-photo:last-child {
@@ -215,8 +213,8 @@
         margin-top: 25px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
     }
     .idc-head .idc-title-2 {
         /* font-size: 14px; */
@@ -265,8 +263,8 @@
     .idc-about .idc-container {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
         padding-top: 40px;
         padding-bottom: 40px;
     }
@@ -302,8 +300,8 @@
     .idc-pluses-block {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
     }
     .idc-pluse {
         width: 100%;
@@ -312,6 +310,8 @@
     }
     .idc-pluse__text {
         margin-top: 10px;
+        font-size: 16px;
+        line-height: 18px;
     }
 
     /* *************map************ */
