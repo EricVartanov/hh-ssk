@@ -1,0 +1,371 @@
+
+
+@media (max-width: 1279.8px) {
+    .idc-section {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .idc-container {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .idc-title-1 {
+        font-size: 2.6vw;
+        line-height: 3vw;
+    }
+    .idc-title-2 {
+        font-size: 2.34vw;
+        line-height: 3.3vw;
+    }
+    .idc-title-3 {
+        font-size: 3.3vw;
+        line-height: 3.8vw;
+    }
+    .idc-text-2,
+    .idc-text-2b {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    /* *************head************ */
+    .idc-head {
+        overflow-y: hidden;
+    }
+    .idc-head .idc-container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .idc-head-content {
+        margin-top: 170px;
+    }
+    .idc-head .idc-title-2 {
+        max-width: 59.8vw;
+    }
+    .idc-staff {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 10px;
+        padding-right: 9px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .idc-staff__count {
+        font-size: 3.3vw;
+        line-height: 3.8vw;
+    }
+    .idc-staff__count > span {
+        font-size: 2.1vw;
+        line-height: 1.9vw;
+        margin-right: 4px;
+    }
+    .idc-staff .idc-text-2 {
+        font-size: 1.3vw;
+        line-height: 1.4vw;
+    }
+    .swiper-pagination-bullet {
+        height: 25px;
+    }
+    .swiper-pagination-bullet-active {
+        height: 30px;
+    }
+    .swiper-pagination-bullet > span {
+        margin-right: 7px;
+        /* font-size: 1.8vw; */
+        /* line-height: 2vw; */
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .swiper-pagination-bullet-active > span {
+        /* font-size: 2.6vw; */
+        /* line-height: 3vw; */
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .idc-head .idc-swiper-img {
+        height: 45.5vw;
+    }
+
+    /* ************about************ */
+    .idc-about .idc-container {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .idc-about .idc-text-2 {
+        max-width: 361px;
+    }
+
+    /* *************projects************ */
+    .idc-projects .idc-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .idc-projects-block {
+        max-width: 510px;
+    }
+    .idc-projects-block .idc-title-3 + .idc-text-2b {
+        margin-top: 50px;
+    }
+    .idc-projects-block .idc-text-2b {
+        margin-top: 40px;
+    }
+    .idc-photos-block {
+        max-width: unset;
+        margin-top: 50px;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        margin-left: 0;
+    }
+    .idc-photos-block .idc-photo:last-child {
+        margin-top: 0;
+        margin-left: auto;
+    }
+    .idc-photos-block .idc-photo {
+        width: calc(50% - 4px);
+    }
+    .idc-projects .idc-list-item::before {
+        top: 4px;
+    }
+    /* *************pluses************ */
+    .idc-pluses .idc-container {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+    .idc-pluse {
+        width: calc(50% - 50px);
+        margin-top: 30px;
+        margin-left: auto;
+    }
+    .idc-pluse:nth-child(2n + 1) {
+        margin-left: 0;
+    }
+
+    /* *************map************ */
+    .idc-map .idc-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .idc-map .idc-title-3 {
+        margin-top: -15px;
+    }
+    .idc-map .idc-text-2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: -15px;
+        max-width: 47vw;
+    }
+    /* *************slider************ */
+    .idc-swiper-block {
+        width: calc(100% + 160px);
+        margin: 0 -80px;
+    }
+    .idc-swiper-2 {
+        padding: 0 80px;
+    }
+    .idc-swiper-tools {
+        padding: 0 80px;
+    }
+    .idc-swiper-button-prev,
+    .idc-swiper-button-next {
+        display: none;
+    }
+    /* *************footer************ */
+
+    .idc-footer .idc-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .idc-footer .idc-title-3 {
+        font-size: 3.3vw;
+        line-height: 3.8vw;
+        max-width: 75vw;
+    }
+}
+
+@media (max-width: 767.8px) {
+    .idc-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .idc-title-3 {
+        font-size: 4.4vw;
+        line-height: 5vw;
+    }
+    /* *************head************ */
+
+    .idc-head .idc-container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .idc-head .idc-swiper-img {
+        /* height: 201px; */
+        height: 63vw;
+    }
+    .idc-head-content {
+        margin-top: 25px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .idc-head .idc-title-2 {
+        /* font-size: 14px; */
+        /* line-height: 16px; */
+        font-size: 4.4vw;
+        line-height: 5vw;
+        max-width: 78vw;
+    }
+    .idc-staff {
+        margin-top: 15px;
+        padding: 6px 7px;
+        border: 1px solid rgba(247, 142, 30, 0.7);
+    }
+    .idc-staff__count,
+    .idc-staff__count > span {
+        /* font-size: 16px; */
+        /* line-height: 18px; */
+        font-size: 5vw;
+        line-height: 5.5vw;
+    }
+    .idc-staff .idc-text-2 {
+        /* font-size: 8px; */
+        /* line-height: 9px; */
+        font-size: 2.5vw;
+        line-height: 2.8vw;
+    }
+    .swiper-pagination-bullet {
+        width: 2px;
+        height: 10px;
+    }
+    .swiper-pagination-bullet-active {
+        width: 2px;
+        height: 15px;
+    }
+    .swiper-pagination-bullet > span {
+        margin-right: 6px;
+        font-size: 7px;
+        line-height: 8px;
+    }
+    .swiper-pagination-bullet-active > span {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    /* *************about************ */
+
+    .idc-about .idc-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .idc-about .idc-text-2 {
+        margin-left: 0;
+        margin-top: 12px;
+    }
+    /* *************projects************ */
+
+    .idc-projects .idc-container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .idc-projects-block .idc-title-3 + .idc-text-2b {
+        margin-top: 40px;
+    }
+    .idc-list .idc-list-item:first-child {
+        margin-top: 20px;
+    }
+    .idc-photos-block {
+        margin-top: 30px;
+    }
+    .idc-photos-block .idc-photo {
+        width: calc(50% - 2px);
+    }
+
+    /* *************pluses************ */
+    .idc-pluses .idc-container {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .idc-pluses-block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .idc-pluse {
+        width: 100%;
+        margin-left: 0;
+        max-width: 256px;
+    }
+    .idc-pluse__text {
+        margin-top: 10px;
+    }
+
+    /* *************map************ */
+
+    .idc-map .idc-container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .idc-map .idc-text-2 {
+        max-width: 52vw;
+    }
+    .idc-map-content {
+        padding-top: 83px;
+    }
+    .idc-map .idc-title-3,
+    .idc-map .idc-text-2 {
+        margin-top: 0;
+    }
+    .idc-map-mobile-img {
+        display: block;
+    }
+    .idc-map-img {
+        display: none;
+    }
+    /* *************slider************ */
+
+    .idc-slider .idc-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .idc-swiper-block {
+        width: calc(100% + 30px);
+        margin: 0 -15px;
+    }
+    .idc-swiper-2 {
+        padding: 0 15px;
+    }
+    .idc-swiper-tools {
+        padding: 0 15px;
+        margin-top: 30px;
+    }
+    .idc-swiper-2 .swiper-slide {
+        width: 66.5vw;
+        height: 47vw;
+    }
+    /* *************footer*********** */
+
+    .idc-footer .idc-container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .idc-footer .idc-title-3 {
+        font-size: 5vw;
+        line-height: 5.5vw;
+        max-width: 86.5vw;
+    }
+}
